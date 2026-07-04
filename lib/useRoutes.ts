@@ -3,9 +3,15 @@
 import { useEffect, useState } from "react";
 import { aStar, costBalanced, costSafe, costShortest, type RouteResult } from "./astar";
 import { findNearestNode, loadGraph, type Graph } from "./graph";
-import type { PresetPlace } from "./presets";
 
 export type RouteKey = "shortest" | "balanced" | "safe";
+
+/** 경로 계산의 출발/도착 입력. 프리셋 장소뿐 아니라 GPS 좌표 등 임의 지점도 구조적으로 호환된다. */
+export interface RoutePoint {
+  id: string;
+  lat: number;
+  lng: number;
+}
 
 export interface RenderableRoute {
   key: RouteKey;
@@ -24,8 +30,8 @@ export function edgesToCoords(edges: RouteResult["edges"]): [number, number][] {
 
 /** graph.json을 로드하고 origin/destination이 바뀔 때마다 비용함수 3종으로 A*를 실행한다. */
 export function useRoutes(
-  origin: PresetPlace | null,
-  destination: PresetPlace | null,
+  origin: RoutePoint | null,
+  destination: RoutePoint | null,
   onError: (message: string) => void
 ): RenderableRoute[] | null {
   const [graph, setGraph] = useState<Graph | null>(null);

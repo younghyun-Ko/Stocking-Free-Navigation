@@ -1,8 +1,9 @@
 "use client";
 
-import { memo, useEffect, useState } from "react";
+import { memo } from "react";
 import L from "leaflet";
 import { LayerGroup, Marker, Popup } from "react-leaflet";
+import type { PoliceFeature } from "@/lib/police";
 
 const policeIcon = L.divIcon({
   className: "police-div-icon",
@@ -11,11 +12,6 @@ const policeIcon = L.divIcon({
   iconAnchor: [15, 15],
   popupAnchor: [0, -15],
 });
-
-interface PoliceFeature {
-  geometry: { coordinates: [number, number] };
-  properties: { name: string; needsVerification?: boolean };
-}
 
 const PoliceMarker = memo(function PoliceMarker({ feature }: { feature: PoliceFeature }) {
   const [lng, lat] = feature.geometry.coordinates;
@@ -36,18 +32,11 @@ const PoliceMarker = memo(function PoliceMarker({ feature }: { feature: PoliceFe
   );
 });
 
-function PoliceMarkers() {
-  // public/data/police.geojson은 실제 지구대·파출소 좌표를 아직 확인하지 못해
-  // 대략적인 위치로 채운 자리표시자 데이터(needsVerification: true)를 사용한다.
-  // 실좌표 확보 후 해당 파일만 교체하면 된다.
-  const [features, setFeatures] = useState<PoliceFeature[]>([]);
+interface PoliceMarkersProps {
+  features: PoliceFeature[];
+}
 
-  useEffect(() => {
-    fetch("/data/police.geojson")
-      .then((res) => res.json())
-      .then((data) => setFeatures(data.features));
-  }, []);
-
+function PoliceMarkers({ features }: PoliceMarkersProps) {
   return (
     <LayerGroup>
       {features.map((feature, i) => (

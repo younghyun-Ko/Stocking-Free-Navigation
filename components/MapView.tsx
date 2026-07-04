@@ -2,16 +2,19 @@
 
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useState } from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
 import type { CctvFeature } from "@/lib/cctv";
 import { useCctvFeatures } from "@/lib/cctv";
+import { usePoliceFeatures } from "@/lib/police";
 import { PRESET_PLACES } from "@/lib/presets";
-import { useRoutes, type RouteKey } from "@/lib/useRoutes";
+import { useRoutes, type RouteKey, type RoutePoint } from "@/lib/useRoutes";
 import BottomSheet from "./BottomSheet";
 import CctvDetail from "./CctvDetail";
 import CctvMarkers from "./CctvMarkers";
+import EmergencyButton from "./EmergencyButton";
 import LightMarkers from "./LightMarkers";
+import MapCenterTracker from "./MapCenterTracker";
 import PoliceMarkers from "./PoliceMarkers";
 import RouteLayer from "./RouteLayer";
 import RouteOptionCards from "./RouteOptionCards";
@@ -36,11 +39,18 @@ export default function MapView() {
   );
   const [originId, setOriginId] = useState("");
   const [destinationId, setDestinationId] = useState("");
+  const [adhocOrigin, setAdhocOrigin] = useState<RoutePoint | null>(null);
+  const [adhocDestination, setAdhocDestination] = useState<RoutePoint | null>(null);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
   const [routeMode, setRouteMode] = useState<"compare" | "selected">("compare");
   const [selectedRouteKey, setSelectedRouteKey] = useState<RouteKey | null>(null);
+  const [mapCenter, setMapCenter] = useState<{ lat: number; lng: number }>({
+    lat: HYEHWA_CENTER[0],
+    lng: HYEHWA_CENTER[1],
+  });
 
   const cctvFeatures = useCctvFeatures();
+  const policeFeatures = usePoliceFeatures();
 
   const handleSelect = useCallback((index: number, feature: CctvFeature) => {
     setSelected({ index, feature });
@@ -50,22 +60,31 @@ export default function MapView() {
     setSelected(null);
   }, []);
 
-  const handleSwap = useCallback(() => {
-    setOriginId(destinationId);
-    setDestinationId(originId);
-  }, [originId, destinationId]);
-
   const handleRouteError = useCallback((message: string) => {
     setToastMessage(message);
   }, []);
 
-  const origin = PRESET_PLACES.find((p) => p.id === originId) ?? null;
-  const destination = PRESET_PLACES.find((p) => p.id === destinationId) ?? null;
+  // 프리셋 드롭다운으로 새 출발/도착을 고르면 그때마다 비교(A) 상태로 되돌리고,
+  // 응급 기능 등에서 쓰던 ad-hoc 좌표(GPS 등)는 무효화한다.
+  const handleOriginChange = useCallback((id: string) => {
+    setOriginId(id);
+    setAdhocOrigin(null);
+    setRouteMode("compare");
+    setSelectedRouteKey(null);
+  }, []);
 
-  const routes = useRoutes(origin, destination, handleRouteError);
+  const handleDestinationChange = useCallback((id: string) => {
+    setDestinationId(id);
+    setAdhocDestination(null);
+    setRouteMode("compare");
+    setSelectedRouteKey(null);
+  }, []);
 
-  // 출발/도착이 바뀌면 상태 B에 머물러 있던 흔적 없이 항상 비교(A) 상태로 되돌린다.
-  useEffect(() => {
+  const handleSwap = useCallback(() => {
+    setOriginId(destinationId);
+    setDestinationId(originId);
+    setAdhocOrigin(null);
+    setAdhocDestination(null);
     setRouteMode("compare");
     setSelectedRouteKey(null);
   }, [originId, destinationId]);
@@ -80,6 +99,25 @@ export default function MapView() {
     setSelectedRouteKey(null);
     setSelected(null);
   }, []);
+
+  // 긴급 "가까운 지구대로 안내": 출발=현재 위치(또는 지도 중심 폴백), 도착=최근접 지구대로
+  // 즉시 세팅하고 비교 단계 없이 바로 상태 B(안심 경로 선택됨)로 진입한다.
+  const handleRouteToPolice = useCallback((origin: RoutePoint, destination: RoutePoint) => {
+    setOriginId("");
+    setDestinationId("");
+    setAdhocOrigin(origin);
+    setAdhocDestination(destination);
+    setSelectedRouteKey("safe");
+    setRouteMode("selected");
+    setSelected(null);
+  }, []);
+
+  const presetOrigin = PRESET_PLACES.find((p) => p.id === originId) ?? null;
+  const presetDestination = PRESET_PLACES.find((p) => p.id === destinationId) ?? null;
+  const origin = adhocOrigin ?? presetOrigin;
+  const destination = adhocDestination ?? presetDestination;
+
+  const routes = useRoutes(origin, destination, handleRouteError);
 
   const selectedRoute = routes?.find((r) => r.key === selectedRouteKey) ?? null;
   const routeFilterEdges =
@@ -98,6 +136,7 @@ export default function MapView() {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
+        <MapCenterTracker onChange={setMapCenter} />
         <LightMarkers />
         <CctvMarkers
           features={cctvFeatures}
@@ -106,7 +145,7 @@ export default function MapView() {
           onDeselect={handleDeselect}
           routeFilterEdges={routeFilterEdges}
         />
-        <PoliceMarkers />
+        <PoliceMarkers features={policeFeatures} />
         <RouteLayer
           routes={routes}
           mode={routeMode}
@@ -119,8 +158,8 @@ export default function MapView() {
         places={PRESET_PLACES}
         originId={originId}
         destinationId={destinationId}
-        onOriginChange={setOriginId}
-        onDestinationChange={setDestinationId}
+        onOriginChange={handleOriginChange}
+        onDestinationChange={handleDestinationChange}
         onSwap={handleSwap}
       />
 
@@ -144,6 +183,14 @@ export default function MapView() {
       {routeMode === "selected" && selectedRoute && !selected && (
         <RouteSummaryCard route={selectedRoute} cctvFeatures={cctvFeatures} />
       )}
+
+      <EmergencyButton
+        policeFeatures={policeFeatures}
+        mapCenter={mapCenter}
+        onRouteToPolice={handleRouteToPolice}
+        onBeforeOpen={handleDeselect}
+        onToast={setToastMessage}
+      />
 
       <BottomSheet open={selected !== null} onClose={handleDeselect}>
         {selected && <CctvDetail feature={selected.feature} />}
