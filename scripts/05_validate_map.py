@@ -7,6 +7,7 @@ import folium
 ROOT = Path(__file__).resolve().parent.parent
 ROADS_GEOJSON = ROOT / "public" / "data" / "roads.geojson"
 CCTV_GEOJSON = ROOT / "public" / "data" / "cctv.geojson"
+LIGHTS_GEOJSON = ROOT / "public" / "data" / "lights.geojson"
 OUT_HTML = ROOT / "scripts" / "validate_all.html"
 
 HYEHWA_CENTER = (37.586, 127.001)
@@ -76,20 +77,44 @@ def add_cctv(m: folium.Map, geojson: dict) -> int:
     return marker_count
 
 
+def add_lights(m: folium.Map, geojson: dict) -> int:
+    light_count = 0
+    for feature in geojson["features"]:
+        light_count += 1
+        lng, lat = feature["geometry"]["coordinates"]
+
+        folium.CircleMarker(
+            location=(lat, lng),
+            radius=2,
+            color="#FFD400",
+            weight=0,
+            fill=True,
+            fill_color="#FFD400",
+            fill_opacity=0.9,
+        ).add_to(m)
+    return light_count
+
+
 def main() -> None:
     with open(ROADS_GEOJSON, encoding="utf-8") as f:
         roads_geojson = json.load(f)
     with open(CCTV_GEOJSON, encoding="utf-8") as f:
         cctv_geojson = json.load(f)
+    with open(LIGHTS_GEOJSON, encoding="utf-8") as f:
+        lights_geojson = json.load(f)
 
     m = folium.Map(location=HYEHWA_CENTER, zoom_start=16, tiles="OpenStreetMap")
 
     edge_count = add_roads(m, roads_geojson)
+    light_count = add_lights(m, lights_geojson)
     marker_count = add_cctv(m, cctv_geojson)
 
     OUT_HTML.parent.mkdir(parents=True, exist_ok=True)
     m.save(str(OUT_HTML))
-    print(f"저장 완료: {OUT_HTML} (도로 {edge_count}개, CCTV {marker_count}개)")
+    print(
+        f"저장 완료: {OUT_HTML} "
+        f"(도로 {edge_count}개, 보안등/가로등 {light_count}개, CCTV {marker_count}개)"
+    )
 
 
 if __name__ == "__main__":
