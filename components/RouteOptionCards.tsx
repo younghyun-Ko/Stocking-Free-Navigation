@@ -23,10 +23,10 @@ export default function RouteOptionCards({ routes, onSelect }: RouteOptionCardsP
               key={route.key}
               type="button"
               onClick={() => onSelect(route.key)}
-              className={`flex shrink-0 flex-col items-start gap-1 rounded-2xl border px-4 py-3 text-left shadow-[0_4px_16px_rgba(0,0,0,0.15)] backdrop-blur-xl transition active:scale-95 ${
+              className={`flex shrink-0 flex-col items-start gap-1 rounded-3xl border px-4 py-3 text-left shadow-[0_8px_24px_rgba(0,0,0,0.16)] backdrop-blur-xl transition active:scale-95 ${
                 isSafe
                   ? "border-white/40 bg-gradient-to-br from-[#0083FF] to-[#4C2CE2] text-white"
-                  : "border-white/40 bg-white/85 text-neutral-900 dark:border-white/10 dark:bg-neutral-900/85 dark:text-neutral-100"
+                  : "border-white/40 bg-white/80 text-neutral-900 dark:border-white/10 dark:bg-neutral-900/80 dark:text-neutral-100"
               }`}
             >
               <span className="text-xs font-semibold opacity-80">{route.label}</span>

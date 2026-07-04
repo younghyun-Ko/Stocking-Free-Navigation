@@ -98,22 +98,32 @@ body {
   left: 0;
   transform: translate(-50%, -50%);
   white-space: nowrap;
-  padding: 4px 10px;
+  padding: 6px 12px;
   border-radius: 999px;
   font-size: 12px;
   font-weight: 600;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-  border: 1px solid rgba(255, 255, 255, 0.7);
+  letter-spacing: -0.01em;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  background: rgba(255, 255, 255, 0.92);
+  color: #374151;
+  border: 1.5px solid rgba(0, 0, 0, 0.06);
 }
 
+/* 추천 경로는 풀필 대신 흰 배경 + 그라데이션 보더로 구분한다(카드 패밀리와 톤 일치).
+   border-image는 border-radius를 무시해버려서, 배경을 2겹으로 깔고 background-clip으로
+   테두리만 그라데이션이 보이게 하는 방식을 쓴다. */
 .route-label-safe {
-  background: linear-gradient(135deg, #0083ff, #4c2ce2);
-  color: #ffffff;
+  font-weight: 700;
+  color: #1d4ed8;
+  border: 2px solid transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.96)),
+    linear-gradient(135deg, #0083ff, #4c2ce2);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
 }
 
 .route-label-default {
-  background: rgba(255, 255, 255, 0.92);
-  color: #374151;
+  /* 기본값(.route-label) 그대로 사용 */
 }
 
 .route-arrow-icon {

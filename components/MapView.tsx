@@ -12,9 +12,12 @@ import { useRoutes, type RouteKey, type RoutePoint } from "@/lib/useRoutes";
 import BottomSheet from "./BottomSheet";
 import CctvDetail from "./CctvDetail";
 import CctvMarkers from "./CctvMarkers";
+import Disclaimer from "./Disclaimer";
 import EmergencyButton from "./EmergencyButton";
 import LightMarkers from "./LightMarkers";
+import LoadingIndicator from "./LoadingIndicator";
 import MapCenterTracker from "./MapCenterTracker";
+import Onboarding from "./Onboarding";
 import PoliceMarkers from "./PoliceMarkers";
 import RouteLayer from "./RouteLayer";
 import RouteOptionCards from "./RouteOptionCards";
@@ -117,7 +120,7 @@ export default function MapView() {
   const origin = adhocOrigin ?? presetOrigin;
   const destination = adhocDestination ?? presetDestination;
 
-  const routes = useRoutes(origin, destination, handleRouteError);
+  const { routes, graphLoading } = useRoutes(origin, destination, handleRouteError);
 
   const selectedRoute = routes?.find((r) => r.key === selectedRouteKey) ?? null;
   const routeFilterEdges =
@@ -133,8 +136,9 @@ export default function MapView() {
         className="h-full w-full"
       >
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+          url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+          subdomains="abcd"
         />
         <MapCenterTracker onChange={setMapCenter} />
         <LightMarkers />
@@ -167,7 +171,7 @@ export default function MapView() {
         <button
           type="button"
           onClick={handleBackToCompare}
-          className="fixed inset-x-0 z-[1500] mx-auto w-fit rounded-full bg-neutral-900/85 px-4 py-2 text-sm font-medium text-white shadow-lg backdrop-blur active:scale-95"
+          className="fixed inset-x-0 z-[1500] mx-auto w-fit rounded-full bg-neutral-900/85 px-4 py-2 text-sm font-medium text-white shadow-lg backdrop-blur-xl active:scale-95"
           style={{ top: "max(6.5rem, calc(env(safe-area-inset-top) + 5.5rem))" }}
         >
           ← 다른 경로 보기
@@ -195,6 +199,10 @@ export default function MapView() {
       <BottomSheet open={selected !== null} onClose={handleDeselect}>
         {selected && <CctvDetail feature={selected.feature} />}
       </BottomSheet>
+
+      <Disclaimer />
+      {graphLoading && <LoadingIndicator />}
+      {!graphLoading && <Onboarding />}
     </div>
   );
 }

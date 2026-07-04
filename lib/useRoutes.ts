@@ -28,17 +28,26 @@ export function edgesToCoords(edges: RouteResult["edges"]): [number, number][] {
   return coords;
 }
 
+export interface UseRoutesResult {
+  routes: RenderableRoute[] | null;
+  /** graph.json(수 MB)이 아직 로드 중인지 - 로딩 인디케이터 표시용. */
+  graphLoading: boolean;
+}
+
 /** graph.json을 로드하고 origin/destination이 바뀔 때마다 비용함수 3종으로 A*를 실행한다. */
 export function useRoutes(
   origin: RoutePoint | null,
   destination: RoutePoint | null,
   onError: (message: string) => void
-): RenderableRoute[] | null {
+): UseRoutesResult {
   const [graph, setGraph] = useState<Graph | null>(null);
+  const [graphLoading, setGraphLoading] = useState(true);
   const [routes, setRoutes] = useState<RenderableRoute[] | null>(null);
 
   useEffect(() => {
-    loadGraph().then(setGraph);
+    loadGraph()
+      .then(setGraph)
+      .finally(() => setGraphLoading(false));
   }, []);
 
   useEffect(() => {
@@ -85,5 +94,5 @@ export function useRoutes(
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [graph, origin, destination]);
 
-  return routes;
+  return { routes, graphLoading };
 }

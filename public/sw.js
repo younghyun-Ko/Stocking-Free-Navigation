@@ -2,7 +2,8 @@
 // 플러그인의 webpack 통합이 불안정한 사례가 많아, 캐시 전략을 직접 제어할 수 있는
 // 순정 서비스 워커를 택했다).
 
-const CACHE_VERSION = "v1";
+// v2: 지도 타일 제공자를 OSM -> CartoDB Positron으로 교체하면서 이전 타일 캐시를 정리하기 위해 버전을 올렸다.
+const CACHE_VERSION = "v2";
 const PRECACHE = `precache-${CACHE_VERSION}`;
 const TILE_CACHE = `tiles-${CACHE_VERSION}`;
 const SHELL_CACHE = `shell-${CACHE_VERSION}`;
@@ -17,7 +18,8 @@ const PRECACHE_URLS = [
   "/data/stats.json",
 ];
 
-const TILE_HOST_PATTERN = /(^|\.)tile\.openstreetmap\.org$/;
+// 지도 타일을 CartoDB Positron(basemaps.cartocdn.com)으로 교체했으므로 이 패턴도 함께 바꿔야 한다.
+const TILE_HOST_PATTERN = /(^|\.)basemaps\.cartocdn\.com$/;
 const MAX_TILE_ENTRIES = 200;
 
 self.addEventListener("install", (event) => {

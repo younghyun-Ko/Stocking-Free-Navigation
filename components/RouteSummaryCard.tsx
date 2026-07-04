@@ -38,7 +38,7 @@ export default function RouteSummaryCard({ route, cctvFeatures }: RouteSummaryCa
       className="fixed inset-x-0 bottom-0 z-[1500] flex justify-center px-3"
       style={{ paddingBottom: "max(0.75rem, env(safe-area-inset-bottom))" }}
     >
-      <div className="w-full max-w-md rounded-3xl border border-white/40 bg-white/85 px-5 py-4 shadow-[0_4px_20px_rgba(0,0,0,0.18)] backdrop-blur-xl dark:border-white/10 dark:bg-neutral-900/85">
+      <div className="w-full max-w-md rounded-3xl border border-white/40 bg-white/80 px-5 py-4 shadow-[0_8px_24px_rgba(0,0,0,0.16)] backdrop-blur-xl dark:border-white/10 dark:bg-neutral-900/80">
         <span className="mb-3 inline-block rounded-full bg-gradient-to-r from-[#0083FF] to-[#4C2CE2] px-3 py-1 text-xs font-bold text-white">
           {route.label} 경로
         </span>

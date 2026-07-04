@@ -47,6 +47,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
+      <head>
+        {/* 지도 타일(LCP 요소)이 CartoDB CDN에서 오므로, JS 청크가 로드되기 전에
+            미리 연결을 맺어 첫 타일이 더 빨리 도착하게 한다. */}
+        <link rel="preconnect" href="https://a.basemaps.cartocdn.com" />
+        <link rel="preconnect" href="https://b.basemaps.cartocdn.com" />
+        <link rel="dns-prefetch" href="https://a.basemaps.cartocdn.com" />
+        <link rel="dns-prefetch" href="https://b.basemaps.cartocdn.com" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-hidden`}
       >

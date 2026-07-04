@@ -51,7 +51,7 @@ export default function BottomSheet({ open, onClose, children }: BottomSheetProp
       }
       aria-hidden={!open}
     >
-      <div className="w-full max-w-md rounded-t-3xl border border-white/40 bg-white/80 shadow-[0_-8px_30px_rgba(0,0,0,0.2)] backdrop-blur-xl dark:border-white/10 dark:bg-neutral-900/80">
+      <div className="w-full max-w-md rounded-t-3xl border border-white/40 bg-white/80 shadow-[0_-8px_24px_rgba(0,0,0,0.16)] backdrop-blur-xl dark:border-white/10 dark:bg-neutral-900/80">
         <div
           className="flex cursor-grab touch-none flex-col items-center pt-2 pb-1 active:cursor-grabbing"
           onPointerDown={handlePointerDown}
