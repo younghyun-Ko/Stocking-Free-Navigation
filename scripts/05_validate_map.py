@@ -1,11 +1,11 @@
-"""public/data/roads.geojson + cctv.geojson 시각 검증용 folium 지도 생성"""
+"""public/data/graph.json + cctv.geojson + lights.geojson 시각 검증용 folium 지도 생성"""
 import json
 from pathlib import Path
 
 import folium
 
 ROOT = Path(__file__).resolve().parent.parent
-ROADS_GEOJSON = ROOT / "public" / "data" / "roads.geojson"
+GRAPH_JSON = ROOT / "public" / "data" / "graph.json"
 CCTV_GEOJSON = ROOT / "public" / "data" / "cctv.geojson"
 LIGHTS_GEOJSON = ROOT / "public" / "data" / "lights.geojson"
 OUT_HTML = ROOT / "scripts" / "validate_all.html"
@@ -13,27 +13,32 @@ OUT_HTML = ROOT / "scripts" / "validate_all.html"
 HYEHWA_CENTER = (37.586, 127.001)
 
 
-def add_roads(m: folium.Map, geojson: dict) -> int:
+def safety_color(safety: float) -> str:
+    if safety >= 0.6:
+        return "#2ECC71"  # 초록
+    if safety >= 0.3:
+        return "#F39C12"  # 주황
+    return "#E74C3C"  # 빨강
+
+
+def add_graph_edges(m: folium.Map, graph: dict) -> int:
     edge_count = 0
-    for feature in geojson["features"]:
-        if feature["geometry"]["type"] != "LineString":
-            continue
+    for edge in graph["edges"]:
         edge_count += 1
-        coords = feature["geometry"]["coordinates"]
-        locations = [(lat, lng) for lng, lat in coords]
-        props = feature["properties"]
+        locations = [(lat, lng) for lng, lat in edge["coords"]]
 
         popup_html = (
-            f"{props.get('name') or '(이름 없음)'}<br>"
-            f"highway: {props.get('highway')}<br>"
-            f"length: {props.get('length')}m"
+            f"length: {edge['length']}m<br>"
+            f"safety: {edge['safety']}<br>"
+            f"coverage: {edge['coverage']}<br>"
+            f"light: {edge['light']}"
         )
 
         folium.PolyLine(
             locations=locations,
-            color="#888888",
-            weight=2,
-            opacity=0.7,
+            color=safety_color(edge["safety"]),
+            weight=3,
+            opacity=0.8,
             popup=folium.Popup(popup_html, max_width=200),
         ).add_to(m)
     return edge_count
@@ -96,8 +101,8 @@ def add_lights(m: folium.Map, geojson: dict) -> int:
 
 
 def main() -> None:
-    with open(ROADS_GEOJSON, encoding="utf-8") as f:
-        roads_geojson = json.load(f)
+    with open(GRAPH_JSON, encoding="utf-8") as f:
+        graph = json.load(f)
     with open(CCTV_GEOJSON, encoding="utf-8") as f:
         cctv_geojson = json.load(f)
     with open(LIGHTS_GEOJSON, encoding="utf-8") as f:
@@ -105,7 +110,7 @@ def main() -> None:
 
     m = folium.Map(location=HYEHWA_CENTER, zoom_start=16, tiles="OpenStreetMap")
 
-    edge_count = add_roads(m, roads_geojson)
+    edge_count = add_graph_edges(m, graph)
     light_count = add_lights(m, lights_geojson)
     marker_count = add_cctv(m, cctv_geojson)
 
