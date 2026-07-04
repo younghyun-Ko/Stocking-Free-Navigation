@@ -1,0 +1,4237 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.999203,
+          37.586361
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "혜화로3길 20",
+        "lotAddress": "명륜1가 49",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.997553,
+          37.586056
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "혜화로3길 55",
+        "lotAddress": "명륜2가 64-1, 건물 옆 전신주",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.997829,
+          37.586808
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "혜화로9길 42",
+        "lotAddress": "명륜1가 60-4, 건물 옆 전신주",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.998255,
+          37.587558
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "혜화로9길 28",
+        "lotAddress": "명륜1가 23, 건물 주차장 출입구 옆 전신주",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.999316,
+          37.58784
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "혜화로9길 6",
+        "lotAddress": "명륜1가 33-6, 건물 옆 삼거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99708,
+          37.587386
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "성균관로 54-13",
+        "lotAddress": "명륜1가 16-48, 건물 앞",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.997642,
+          37.587712
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "성균관로 58-23",
+        "lotAddress": "명륜1가 16-26, 건물 옆 삼거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9976432,
+          37.58804452
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "성균관로14길 34",
+        "lotAddress": "명륜1가 23-4, 건물 옆 삼거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.008597,
+          37.57528
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "낙산성곽서길 63",
+        "lotAddress": "충신동 1-211, 건물 앞",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.007845,
+          37.576048
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "충신4나길 5",
+        "lotAddress": "충신동 1-314",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0070329,
+          37.57613157
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "충신길 78",
+        "lotAddress": "충신동 1-71, 건물 앞",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.007498,
+          37.576109
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "충신길 76-9",
+        "lotAddress": "충신동 1-365, 건물 근처 계단 위",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.998359,
+          37.588364
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "혜화로9길 24-16",
+        "lotAddress": "명륜1가 33-59, 건물 앞 사거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.005206,
+          37.578469
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "이화장길 70-12",
+        "lotAddress": "동숭동 199-20",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.005957,
+          37.577803
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "이화장1길 33",
+        "lotAddress": "이화동 6-2, 건물 앞",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0046543,
+          37.58277873
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "동숭3길 40",
+        "lotAddress": "동숭동 25-1, 일석기념관",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.005863,
+          37.583249
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "동숭4나길 29",
+        "lotAddress": "동숭동 6-31, 동숭경로당 옆",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.000706,
+          37.576793
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "율곡로13길 13",
+        "lotAddress": "연건동 273-8, 건물 앞",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.001952,
+          37.580421
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "대학로 103",
+        "lotAddress": "연건동 28-2, 서울대 의과대학 본관 정문 ",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0010345,
+          37.57924006
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "대학로7길 18",
+        "lotAddress": "연건동 50-6",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0059,
+          37.57629
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "율곡로19길 19",
+        "lotAddress": "이화동 12-2",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0066969,
+          37.57762076
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "이화장1나길 15",
+        "lotAddress": "이화동 9-264, 이화경로당 앞",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.008051,
+          37.577733
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "낙산성곽서1길 17",
+        "lotAddress": "이화동 9-498",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9976327,
+          37.58885176
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "성균관로14길 14",
+        "lotAddress": "명륜1가 33-87, 건물 앞",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0038854,
+          37.57986651
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "동숭길 29",
+        "lotAddress": "동숭동 1-141, 건물 앞 삼거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00241,
+          37.581793
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "대학로 120",
+        "lotAddress": "동숭동 1-27, 건물 뒤 사거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0045073,
+          37.57909185
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "이화장길 84",
+        "lotAddress": "동숭동 192-14, 건물 앞 삼거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00199,
+          37.579754
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "대학로 95",
+        "lotAddress": "연건동 28-2, 함춘회관 앞",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.004523,
+          37.576895
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "이화장길 33",
+        "lotAddress": "이화동 149-1, 이화동 주민센터 옆",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0049736,
+          37.57618642
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "율곡로17길 7-2",
+        "lotAddress": "이화동 96-2",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0026192,
+          37.57676947
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "대학로 60",
+        "lotAddress": "연건동 178-1, 서울사대부설초교 정문 근처",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00333,
+          37.57686
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "이화장길 14",
+        "lotAddress": "이화동 186-3, 건물 앞 초등학교 담벼락",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9976124,
+          37.59047879
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "성균관로17길 28",
+        "lotAddress": "명륜1가 2-19, 건물 앞 삼거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.998271,
+          37.588805
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "혜화로11길 19",
+        "lotAddress": "명륜1가 33-54, 건물 앞 사거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9986137,
+          37.58675307
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "혜화로3가길 11",
+        "lotAddress": "명륜1가 57-1, 건물 앞",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9980082,
+          37.58715355
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "혜화로9길 40",
+        "lotAddress": "명륜1가 60-1, 건물 옆 사거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99781,
+          37.584526
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "성균관로4길 6",
+        "lotAddress": "명륜2가 145",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.999667,
+          37.586185
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "혜화로3길 6",
+        "lotAddress": "명륜1가 46-7, 명륜교회 지하주차장 입구",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0013991,
+          37.58367269
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "대명길 4",
+        "lotAddress": "명륜2가 24-4, 혜화역4번 출구 앞",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0007633,
+          37.58252184
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "대명1길 25",
+        "lotAddress": "명륜4가 85-9, 건물 옆 사거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.000327,
+          37.588808
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "혜화로10길 15-9",
+        "lotAddress": "혜화동 15-118, 혜화초교 담벼락",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.002082,
+          37.589668
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "혜화로6길 70-1",
+        "lotAddress": "혜화동 15-146, 건물 옆 삼거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.002471,
+          37.588231
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "창경궁로35길 55",
+        "lotAddress": "혜화동 26-39",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.000395,
+          37.590841
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "혜화로16길 26",
+        "lotAddress": "혜화동 5-49, 건물 앞 삼거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0018559,
+          37.58678804
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "창경궁로35길 19",
+        "lotAddress": "혜화동 53-11, 건물 앞 삼거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.999736,
+          37.588328
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "혜화로 32",
+        "lotAddress": "혜화동 13-1, 혜화초교 정문 횡단보도",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.993302,
+          37.590395
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "명륜7길 1",
+        "lotAddress": "명륜3가 1-1040, 건물 앞 삼거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.995601,
+          37.589041
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "명륜2길 9-2",
+        "lotAddress": "명륜3가 1-180, 건물 앞",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.993474,
+          37.58945927
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "명륜길 45-23",
+        "lotAddress": "명륜3가 1-165, 명륜교회 앞 삼거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.994821,
+          37.58939
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "명륜4길 3",
+        "lotAddress": "명륜3가 1-143",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.995803,
+          37.590809
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "명륜7길 55",
+        "lotAddress": "명륜3가 1-883, 건물 앞 삼거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.995777,
+          37.587583
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "성균관로7길 25",
+        "lotAddress": "명륜3가 38-1, 건물 옆 전신주 근처",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.994137,
+          37.58662
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "성균관로5길 83",
+        "lotAddress": "명륜3가 59-1, 건물 앞 담벼락",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9944252,
+          37.59038141
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "명륜7길 26",
+        "lotAddress": "명륜3가 1-962",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.993254,
+          37.591107
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "명륜9길 3-2",
+        "lotAddress": "명륜3가 1-1393, 건물 앞",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.008671,
+          37.578781
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "낙산성곽동길 72",
+        "lotAddress": "창신동 618-1, 건물 앞 공원입구",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0091405,
+          37.5780949
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 4,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-11",
+        "roadAddress": "창신길 156",
+        "lotAddress": "창신동 609-4",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0039087,
+          37.58268397
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "동숭길 101",
+        "lotAddress": "동숭동 1-83",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9959455,
+          37.58462652
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 4,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "성균관로5길 29",
+        "lotAddress": "명륜3가 72-7, 건물 앞 담벼락",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0060536,
+          37.57504731
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "율곡로23길 1",
+        "lotAddress": "충신동 35-14, 건물 옆 삼거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.004093,
+          37.583598
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "동숭4가길 7",
+        "lotAddress": "동숭동 2-22",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0011013,
+          37.57854064
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "대학로5길 16",
+        "lotAddress": "연건동 93-13, 건물 옆 삼거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0007155,
+          37.58743248
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 4,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "창경궁로35가길 22",
+        "lotAddress": "혜화동 71-20, 건물 앞 오거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0001129,
+          37.59003943
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 4,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "혜화로12길 24",
+        "lotAddress": "혜화동 6-20, 건물 앞 사거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.005804,
+          37.584029
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-14",
+        "roadAddress": "동숭4라길 9",
+        "lotAddress": "동숭동 4-69, 건물 앞",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.005874,
+          37.583799
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "카메라 전면(고정)",
+        "retentionDays": 30,
+        "installedAt": "Feb-18",
+        "roadAddress": "동숭4라길17-1",
+        "lotAddress": "동숭동4-89",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.996615,
+          37.587797
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 4,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-14",
+        "roadAddress": "명륜길 2",
+        "lotAddress": "명륜1가 15, 건물 앞 사거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.002574,
+          37.584109
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-14",
+        "roadAddress": "대학로14길 17",
+        "lotAddress": "혜화동 163-33",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.996854,
+          37.575096
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-15",
+        "roadAddress": "창경궁로21길 9",
+        "lotAddress": "원남동 244-7, 건물 앞 삼거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.006346,
+          37.579381
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-15",
+        "roadAddress": "낙산3길 27",
+        "lotAddress": "동숭동 201-33, 건물 앞",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.998501,
+          37.584219
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-15",
+        "roadAddress": "창경궁로31길 24",
+        "lotAddress": "명륜2가 159-2, 건물 앞 골목길 모서리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.998603,
+          37.584274
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "카메라 전면(고정)",
+        "retentionDays": 30,
+        "installedAt": "Dec-15",
+        "roadAddress": "창경궁로31길 22",
+        "lotAddress": "명륜2가 159-3, 건물 출입문 옆",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.994202,
+          37.588888
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-15",
+        "roadAddress": "명륜3길 10",
+        "lotAddress": "명륜3가 1-28, 건물 앞",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99688,
+          37.589798
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 4,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-15",
+        "roadAddress": "성균관로13길 13",
+        "lotAddress": "명륜1가 7-2, 건물 옆 사거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.999172,
+          37.581804
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-15",
+        "roadAddress": "창경궁로26길 28",
+        "lotAddress": "명륜4가 206-24, 건물 앞",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00014,
+          37.587898
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 4,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-15",
+        "roadAddress": "혜화로8길 4",
+        "lotAddress": "혜화동 16-7, 건물 옆 통신주 근처",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.004644,
+          37.58352
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-15",
+        "roadAddress": "동숭4길 17",
+        "lotAddress": "동숭동 10, 건물 옆 전신주 근처",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.999566,
+          37.576772
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-16",
+        "roadAddress": "율곡로13가길 28",
+        "lotAddress": "연건동 289-1, 건물 앞 통신주 옆",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.996745,
+          37.586529
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-16",
+        "roadAddress": "성균관로 40",
+        "lotAddress": "명륜1가 83-5, 건물 앞 삼거리 주변 전신주 옆",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.993082,
+          37.590078
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-16",
+        "roadAddress": "명륜6길 8-2",
+        "lotAddress": "명륜3가 산2-8, 계단 옆 통신주 근처",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.008739,
+          37.579352
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-16",
+        "roadAddress": "창신길 191-27",
+        "lotAddress": "창신동 615-124, 건물 앞 계단 근처",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.006559,
+          37.576586
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Sep-17",
+        "roadAddress": "율곡로19길 29",
+        "lotAddress": "이화동 9-28, 사거리 전신주 옆",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.005975,
+          37.575675
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Sep-17",
+        "roadAddress": "율곡로19가길 7-6",
+        "lotAddress": "충신동 5-22, 건물 출입구 옆",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00736,
+          37.575179
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Sep-17",
+        "roadAddress": "충신길 53",
+        "lotAddress": "충신동 25-14, 건물 건너편 화단",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.006549,
+          37.575392
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Sep-17",
+        "roadAddress": "율곡로23길 18-1",
+        "lotAddress": "충신동 5-69, 건물 근처 전신주 옆",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.997801,
+          37.583611
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 4,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Sep-17",
+        "roadAddress": "성균관로3길 5",
+        "lotAddress": "명륜3가 133, 건물 뒤 통신주 옆",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.994835,
+          37.590283
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Sep-17",
+        "roadAddress": "명륜7길 36",
+        "lotAddress": "명륜3가 1-907, 건물 옆 계단 전신주 근처",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.995073,
+          37.59036
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "카메라 전면(고정)",
+        "retentionDays": 30,
+        "installedAt": "Sep-17",
+        "roadAddress": "명륜7길 40",
+        "lotAddress": "명륜3가 1-907, 건물 옆 통신주",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.993872,
+          37.590458
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 5,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Sep-17",
+        "roadAddress": "명륜7길 14",
+        "lotAddress": "명륜3가 1-984, 건물 근처 전신주 옆",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.000588,
+          37.589444
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Sep-17",
+        "roadAddress": "혜화로12길 14-9",
+        "lotAddress": "혜화동 13-10, 건물 옆",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.001279,
+          37.588087
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Sep-17",
+        "roadAddress": "혜화로6길 32",
+        "lotAddress": "혜화동 22-24, 건물 근처 통신주 옆",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.000817,
+          37.586045
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 4,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Sep-17",
+        "roadAddress": "혜화로 2",
+        "lotAddress": "혜화동 108-1, 건물 앞 가로등 옆",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.009593,
+          37.577107
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Nov-17",
+        "roadAddress": "창신길 129",
+        "lotAddress": "창신동 627-190, 건물 앞 전신주 옆",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.009241,
+          37.575949
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Nov-17",
+        "roadAddress": "창신7길 22",
+        "lotAddress": "창신동 639-20, 건물 앞 전신주 옆",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.009114,
+          37.577597
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Nov-17",
+        "roadAddress": "낙산성곽동길 57",
+        "lotAddress": "창신동 627-6, 건물 앞 전신주",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.009615,
+          37.579679
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Nov-17",
+        "roadAddress": "창신12길 4",
+        "lotAddress": "창신동 611-42, 건물 근처 전신주",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.994025,
+          37.591081
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Oct-17",
+        "roadAddress": "명륜9길 22",
+        "lotAddress": "명륜3가 1-1005",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.005431,
+          37.579947
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Feb-18",
+        "roadAddress": "동숭1길23",
+        "lotAddress": "동숭동 189-10",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.995646,
+          37.589881
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Feb-18",
+        "roadAddress": "명륜2길44-9",
+        "lotAddress": "명륜3가 1-72",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.994899,
+          37.5895757
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Feb-18",
+        "roadAddress": "명륜4길11",
+        "lotAddress": "명륜3가1-1196",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.999859,
+          37.581381
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Feb-18",
+        "roadAddress": "대학로9가길9-4",
+        "lotAddress": "명륜4가127-18",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.005205,
+          37.575
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Nov-18",
+        "roadAddress": "율곡로20길 3",
+        "lotAddress": "충신동 136-16",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.008492,
+          37.576725
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Nov-18",
+        "roadAddress": "낙산성곽서길 99-2",
+        "lotAddress": "이화동 9-330",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.995948,
+          37.58841
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Nov-18",
+        "roadAddress": "명륜길 20-4",
+        "lotAddress": "명륜1가 10-13",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.997649,
+          37.589816
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Nov-18",
+        "roadAddress": "성균관로15길 10",
+        "lotAddress": "명륜1가 5-4",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.005136,
+          37.5829642
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Nov-19",
+        "roadAddress": "동숭4나길 18, 뒷골목",
+        "lotAddress": "동숭동 50-101",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.006598,
+          37.575784
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Feb-20",
+        "roadAddress": "율곡로23가길 6",
+        "lotAddress": "충신동 5-60",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0068394,
+          37.5758967
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "카메라 전면(고정)",
+        "retentionDays": 30,
+        "installedAt": "Feb-20",
+        "roadAddress": "율곡로23가길 6",
+        "lotAddress": "충신동 5-60",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.000018,
+          37.576391
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Oct-20",
+        "roadAddress": "율곡로13가길 18",
+        "lotAddress": "연건동 271-16",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.997042,
+          37.58319
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Oct-20",
+        "roadAddress": "성균관로3길 23",
+        "lotAddress": "명륜3가 141-7",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.998723,
+          37.584836
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 4,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Oct-20",
+        "roadAddress": "성균관로4길 25",
+        "lotAddress": "명륜2가 43-1",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.998954,
+          37.587278
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Oct-20",
+        "roadAddress": "혜화로5길 38",
+        "lotAddress": "명륜1가 36-22",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.008426,
+          37.58019
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 4,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-20",
+        "roadAddress": "낙산성곽서길 184",
+        "lotAddress": "창신동 615-279",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.008026,
+          37.579266
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-20",
+        "roadAddress": "낙산성곽서길 173",
+        "lotAddress": "동숭동 산 2-32",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0082948,
+          37.5776401
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-20",
+        "roadAddress": "낙산성곽서1길 14 ",
+        "lotAddress": "이화동 9-769",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99677,
+          37.58275
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Jan-21",
+        "roadAddress": "창경궁로27길 27-1",
+        "lotAddress": "명륜3가 1-111",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.006451,
+          37.58102596
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Feb-22",
+        "roadAddress": "낙산3길 7-9",
+        "lotAddress": "동숭동 산 2-10",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9989898,
+          37.58264786
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Feb-22",
+        "roadAddress": "창경궁로 240-7",
+        "lotAddress": "명룡4가 188-14",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9992316,
+          37.58887863
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 4,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Feb-22",
+        "roadAddress": "혜화로 35",
+        "lotAddress": "명륜1가 33-30",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9993243,
+          37.5898637
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Feb-22",
+        "roadAddress": "혜화로 50",
+        "lotAddress": "혜화동 9-11",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9984107,
+          37.58990561
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Feb-22",
+        "roadAddress": "성균관로 86",
+        "lotAddress": "명륜1가 31-29",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9993718,
+          37.58491054
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Feb-22",
+        "roadAddress": "창경궁로 253-13",
+        "lotAddress": "명륜2가 8-7",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9972048,
+          37.58447592
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Feb-22",
+        "roadAddress": "성균관로5길 5",
+        "lotAddress": "명륜2가 140-2",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0056317,
+          37.58023752
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Feb-22",
+        "roadAddress": "낙산길 22-10",
+        "lotAddress": "동숭동 129-151",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.996,
+          37.5896
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Jan-23",
+        "roadAddress": "명륜2길 40-18",
+        "lotAddress": "명륜3가 1-839",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9952473,
+          37.59102899
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Feb-24",
+        "roadAddress": "성균관로 13길 69-1",
+        "lotAddress": "명륜3가 1-925",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9964731,
+          37.58933967
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Feb-24",
+        "roadAddress": "성균관로 15길 34-3",
+        "lotAddress": "명륜1가 7-7",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9983499,
+          37.58176687
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Feb-24",
+        "roadAddress": "창경궁로26길 11",
+        "lotAddress": "명륜4가 206-7",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.005507,
+          37.58341
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Jan-24",
+        "roadAddress": "동숭4다길 14-3",
+        "lotAddress": "동숭동 4-134",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.995177,
+          37.590007
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Jan-24",
+        "roadAddress": "명륜4길 21",
+        "lotAddress": "명륜3가 1-903",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.008,
+          37.57711
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Feb-24",
+        "roadAddress": "낙산성곽서길 107-13",
+        "lotAddress": "이화동 9-324",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0057,
+          37.58045
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Feb-24",
+        "roadAddress": "낙산길 19",
+        "lotAddress": "동숭동 129-133",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.995339,
+          37.584745
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 4,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Aug-24",
+        "roadAddress": "성균관로5길 39-1",
+        "lotAddress": "명륜3가 152",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9982513,
+          37.5834193
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 4,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Aug-24",
+        "roadAddress": "성균관로1길 5",
+        "lotAddress": "명륜3가67-22",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.993829,
+          37.591211
+        ]
+      },
+      "properties": {
+        "purpose": "방범",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Oct-24",
+        "roadAddress": "명륜9길 16",
+        "lotAddress": "명륜3가 1-1016",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99451,
+          37.59128
+        ]
+      },
+      "properties": {
+        "purpose": "공원",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "명륜3가 산 2-11 (와룡공원)",
+        "lotAddress": "명륜3가 산 2-11 (와룡공원)",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.996075,
+          37.592161
+        ]
+      },
+      "properties": {
+        "purpose": "공원",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-13",
+        "roadAddress": "명륜3가 산 2-11 (와룡공원)",
+        "lotAddress": "명륜3가 산 2-11 (와룡공원)",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.998249,
+          37.588157
+        ]
+      },
+      "properties": {
+        "purpose": "공원",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Aug-14",
+        "roadAddress": "혜화로9길 24-9 (명륜상상어린이공원)",
+        "lotAddress": "명륜1가 23-9",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.997106,
+          37.584814
+        ]
+      },
+      "properties": {
+        "purpose": "공원",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Aug-14",
+        "roadAddress": "명륜2가 132 (성대정문 쉼터)",
+        "lotAddress": "명륜2가 132 (성대정문 쉼터)",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.997118,
+          37.585041
+        ]
+      },
+      "properties": {
+        "purpose": "공원",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Aug-14",
+        "roadAddress": "성균관로 25 (성대정문 쉼터)",
+        "lotAddress": "명륜3가 53",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.996847,
+          37.584655
+        ]
+      },
+      "properties": {
+        "purpose": "공원",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Jun-15",
+        "roadAddress": "명륜3가 53-2 (경학어린이공원)",
+        "lotAddress": "명륜3가 53-2 (경학어린이공원)",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.004854,
+          37.583061
+        ]
+      },
+      "properties": {
+        "purpose": "공원",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Jun-15",
+        "roadAddress": "동숭동 2-39 (백동어린이놀이터)",
+        "lotAddress": "동숭동 2-39 (백동어린이놀이터)",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9983649,
+          37.59021556
+        ]
+      },
+      "properties": {
+        "purpose": "공원",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Apr-21",
+        "roadAddress": "성균관로17길",
+        "lotAddress": "혜화동 1-20",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9984743,
+          37.59015701
+        ]
+      },
+      "properties": {
+        "purpose": "공원",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Apr-21",
+        "roadAddress": "성균관로17길",
+        "lotAddress": "혜화동 1-20",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9985031,
+          37.59016847
+        ]
+      },
+      "properties": {
+        "purpose": "공원",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Apr-21",
+        "roadAddress": "성균관로17길",
+        "lotAddress": "혜화동 1-20",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0084444,
+          37.5787347
+        ]
+      },
+      "properties": {
+        "purpose": "공원",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-21",
+        "roadAddress": "낙산성곽동길 72 (창이놀이터)",
+        "lotAddress": "창신동 618-1",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0085262,
+          37.5786986
+        ]
+      },
+      "properties": {
+        "purpose": "공원",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Dec-21",
+        "roadAddress": "낙산성곽동길 72 (창이놀이터)",
+        "lotAddress": "창신동 618-1",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9953076,
+          37.59115171
+        ]
+      },
+      "properties": {
+        "purpose": "공원",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Apr-22",
+        "roadAddress": "성균관로 13길 (와룡공원)",
+        "lotAddress": "성균관로 13길",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9953633,
+          37.59139295
+        ]
+      },
+      "properties": {
+        "purpose": "공원",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Apr-22",
+        "roadAddress": "성균관로 13길 (와룡공원)",
+        "lotAddress": "성균관로 13길",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9951249,
+          37.591625
+        ]
+      },
+      "properties": {
+        "purpose": "공원",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Apr-22",
+        "roadAddress": "성균관로 13길 (와룡공원)",
+        "lotAddress": "성균관로 13길",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0052568,
+          37.5830468
+        ]
+      },
+      "properties": {
+        "purpose": "공원",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Mar-24",
+        "roadAddress": "동숭4나길 22-2(동숭동, 동악주택)",
+        "lotAddress": "동숭동 50-87 동악주택",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0089401,
+          37.57594423
+        ]
+      },
+      "properties": {
+        "purpose": "공원",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": 30,
+        "installedAt": "Mar-24",
+        "roadAddress": "창신동 627-323",
+        "lotAddress": "창신동 627-323",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9980768,
+          37.5881373
+        ]
+      },
+      "properties": {
+        "purpose": "공원",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Apr-24",
+        "roadAddress": "명륜1가 23-9",
+        "lotAddress": "명륜1가 23-9",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9965067,
+          37.5845382
+        ]
+      },
+      "properties": {
+        "purpose": "공원",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Apr-24",
+        "roadAddress": "명륜3가53-2",
+        "lotAddress": "명륜3가53-2",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9960968,
+          37.5846646
+        ]
+      },
+      "properties": {
+        "purpose": "공원",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Apr-24",
+        "roadAddress": "명륜3가53-2",
+        "lotAddress": "명륜3가53-2",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.997455,
+          37.584337
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "May-17",
+        "roadAddress": "성균관로 17",
+        "lotAddress": "명륜2가 142-2, 건물 앞 도로변",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.003348,
+          37.580846
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Jun-18",
+        "roadAddress": "대학로8길 7",
+        "lotAddress": "동숭동 1-111, 아르코예술극장과 아르코미술관 샛길",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.002932,
+          37.58177675
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Jun-18",
+        "roadAddress": "대학로10길 11",
+        "lotAddress": "동숭동 1-61, 건물 앞 사거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.002331,
+          37.582597
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Jun-18",
+        "roadAddress": "대학로8가길 36",
+        "lotAddress": "동숭동 1-57, 건물 앞 삼거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.002158,
+          37.581865
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Jun-18",
+        "roadAddress": "대학로 120",
+        "lotAddress": "동숭동 1-27, 건물 앞 도로변",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.002435,
+          37.576884
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Jun-18",
+        "roadAddress": "대학로 64",
+        "lotAddress": "이화동 149, 서울사대부설초교 정문 앞 도로변",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.001991,
+          37.579613
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Jun-18",
+        "roadAddress": "대학로 93",
+        "lotAddress": "연건동 32-2, 건물 앞 도로변",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.001662,
+          37.585361
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Jun-18",
+        "roadAddress": "대학로 156",
+        "lotAddress": "혜화동 90-7, 혜화아트센터 앞 혜화동 로터리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.001499,
+          37.58344
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Jun-18",
+        "roadAddress": "대명길 3",
+        "lotAddress": "명륜4가 1, 서울연극센터 앞 도로변, 혜화역 4번 출구 근처",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.999253,
+          37.591985
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Jun-18",
+        "roadAddress": "혜화로 63",
+        "lotAddress": "명륜1가 1, 서울과학과와 경신고 사이 도로변",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.999288,
+          37.58981
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Jun-18",
+        "roadAddress": "혜화로 50",
+        "lotAddress": "혜화동 9-11, 건물 앞",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.002609,
+          37.5835
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Jun-18",
+        "roadAddress": "동숭길 133 ",
+        "lotAddress": "동숭동 1-38, 상명아트홀 주변",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.003884,
+          37.582667
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Jun-18",
+        "roadAddress": "동숭길 101",
+        "lotAddress": "동숭동 1-83, IBK기업은행 대학로지점 주변",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.00102,
+          37.585924
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Jun-18",
+        "roadAddress": "혜화로 1",
+        "lotAddress": "혜화동 111-3",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0000312,
+          37.58655
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Jun-18",
+        "roadAddress": "혜화로 12",
+        "lotAddress": "혜화동 74-30",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.999717,
+          37.588391
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Jun-18",
+        "roadAddress": "혜화로 32",
+        "lotAddress": "혜화동 13-1",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.004999,
+          37.575796
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Jun-18",
+        "roadAddress": "율곡로 235",
+        "lotAddress": "충신동 52-2, 건물 앞 횡단보도",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.998612,
+          37.583066
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 2,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Jun-18",
+        "roadAddress": "창경궁로 237",
+        "lotAddress": "명륜2가 231, 건물 앞 횡단보도",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.008671,
+          37.578781
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "May-21",
+        "roadAddress": "낙산성곽동길 72",
+        "lotAddress": "창신동 618-1, 건물 앞 공원입구",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9974464,
+          37.575757
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Nov-22",
+        "roadAddress": "창경궁로 150",
+        "lotAddress": "원남동 96-9",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.004449,
+          37.58024
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 1,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Oct-24",
+        "roadAddress": "동숭길 48",
+        "lotAddress": "동숭동 31-19",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.007179,
+          37.578789
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Oct-14",
+        "roadAddress": "낙산4길 24 (동숭어린이집)",
+        "lotAddress": "동숭동 50-135, 어린이집 초입 근처 삼거리 주변",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.001478,
+          37.589438
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Oct-14",
+        "roadAddress": "혜화로6길 63 (한아름유치원)",
+        "lotAddress": "혜화동 15-139, 한아름유치원 가는길 근처 혜화동김상협가 앞 사거리",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.002023,
+          37.586262
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Oct-14",
+        "roadAddress": "창경궁로 288 (혜화유치원)",
+        "lotAddress": "혜화동 58-2, 유치원 옆 혜화동 성당 정문 앞",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.997408,
+          37.589234
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Aug-15",
+        "roadAddress": "성균관로 74-1 (혜화초교)",
+        "lotAddress": "명륜1가 27-47, 건물 앞 도로변",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.995144,
+          37.591126
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 3,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Aug-15",
+        "roadAddress": "성균관로13길 63 (명륜어린이집)",
+        "lotAddress": "명륜3가 1-924, 건물 앞 삼거리 주변",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0000597,
+          37.58209761
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 4,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Dec-13",
+        "roadAddress": "대학로11길 27",
+        "lotAddress": "명륜4가 80-1",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0045882,
+          37.5812419
+        ]
+      },
+      "properties": {
+        "purpose": "주정차",
+        "cameraCount": 4,
+        "resolution": 200,
+        "direction": "360도 전방면",
+        "retentionDays": null,
+        "installedAt": "Feb-18",
+        "roadAddress": "동숭3길8",
+        "lotAddress": "동숭동 50-12",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9997,
+          37.58756
+        ]
+      },
+      "properties": {
+        "purpose": "국가유산방범",
+        "cameraCount": 6,
+        "resolution": 200,
+        "direction": "카메라 전면(고정)",
+        "retentionDays": null,
+        "installedAt": "Feb-17",
+        "roadAddress": "혜화로5길 53",
+        "lotAddress": "혜화로5길 53",
+        "agency": "서울특별시 종로구청",
+        "agencyPhone": "02-2148-3033",
+        "coverageRadius": 40
+      }
+    }
+  ]
+}
