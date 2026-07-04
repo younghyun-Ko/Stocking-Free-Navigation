@@ -83,3 +83,51 @@ body {
   background: #4c2ce2;
   font-size: 16px;
 }
+
+/* 경로 안내 라벨(divIcon)은 텍스트 길이에 맞춰 늘어나야 해서 leaflet 기본 12x12 박스를
+   벗어나도록 overflow를 열어두고, 내부에서 절대위치+translate로 중앙 정렬한다. */
+.route-label-icon {
+  background: transparent;
+  border: none;
+  overflow: visible !important;
+}
+
+.route-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.route-label-safe {
+  background: linear-gradient(135deg, #0083ff, #4c2ce2);
+  color: #ffffff;
+}
+
+.route-label-default {
+  background: rgba(255, 255, 255, 0.92);
+  color: #374151;
+}
+
+.route-arrow-icon {
+  background: transparent;
+  border: none;
+}
+
+.route-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: #0083ff;
+  font-size: 12px;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.9);
+}
