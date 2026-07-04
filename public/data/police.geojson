@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0018, 37.5862] },
+      "properties": {
+        "name": "혜화파출소",
+        "type": "police",
+        "needsVerification": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0002, 37.5878] },
+      "properties": {
+        "name": "명륜파출소",
+        "type": "police",
+        "needsVerification": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0035, 37.5825] },
+      "properties": {
+        "name": "동숭파출소",
+        "type": "police",
+        "needsVerification": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.0048, 37.5798] },
+      "properties": {
+        "name": "이화동파출소",
+        "type": "police",
+        "needsVerification": true
+      }
+    }
+  ]
+}
