@@ -21,10 +21,10 @@ export default function SearchBar({
 }: SearchBarProps) {
   return (
     <div
-      className="fixed inset-x-0 top-0 z-[1500] flex justify-center px-3"
+      className="pointer-events-none fixed inset-x-0 top-0 z-[1500] flex justify-center px-3"
       style={{ paddingTop: "max(0.75rem, env(safe-area-inset-top))" }}
     >
-      <div className="flex w-full max-w-md items-center gap-2 rounded-2xl border border-white/40 bg-white/80 px-3 py-1 shadow-[0_4px_20px_rgba(0,0,0,0.15)] backdrop-blur-xl dark:border-white/10 dark:bg-neutral-900/80">
+      <div className="pointer-events-auto flex w-full max-w-md items-center gap-2 rounded-2xl border border-white/40 bg-white/80 px-3 py-1 shadow-[0_4px_20px_rgba(0,0,0,0.15)] backdrop-blur-xl dark:border-white/10 dark:bg-neutral-900/80">
         <div className="flex flex-1 flex-col divide-y divide-black/10 dark:divide-white/10">
           <PlaceSelect
             label="출발"

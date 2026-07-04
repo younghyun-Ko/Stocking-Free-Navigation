@@ -1,6 +1,6 @@
 "use client";
 
-import type { CctvFeature } from "./CctvMarkers";
+import type { CctvFeature } from "@/lib/cctv";
 
 function Row({ label, value }: { label: string; value: string }) {
   return (
