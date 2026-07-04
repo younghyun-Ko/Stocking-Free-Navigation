@@ -2,56 +2,80 @@
 
 import { memo, useEffect, useState } from "react";
 import L from "leaflet";
-import { LayerGroup, Marker, Popup } from "react-leaflet";
+import { Circle, LayerGroup, Marker, useMapEvents } from "react-leaflet";
 import { useZoomVisible } from "./useZoomVisible";
 
 const MIN_ZOOM = 17;
+const BRAND_BLUE = "#0083FF";
 
 const cctvIcon = L.divIcon({
   className: "cctv-div-icon",
   html: '<div class="cctv-marker">📹</div>',
   iconSize: [26, 26],
   iconAnchor: [13, 13],
-  popupAnchor: [0, -13],
 });
 
-interface CctvProperties {
+const cctvIconSelected = L.divIcon({
+  className: "cctv-div-icon",
+  html: '<div class="cctv-marker cctv-marker-selected">📹</div>',
+  iconSize: [38, 38],
+  iconAnchor: [19, 19],
+});
+
+export interface CctvProperties {
   purpose: string;
   cameraCount: number;
   resolution: number;
   direction: string;
-  coverageRadius: number;
+  retentionDays: number | null;
   roadAddress: string;
+  lotAddress: string;
+  agency: string;
+  agencyPhone: string;
+  coverageRadius: number;
 }
 
-interface CctvFeature {
+export interface CctvFeature {
   geometry: { coordinates: [number, number] };
   properties: CctvProperties;
 }
 
-const CctvMarker = memo(function CctvMarker({ feature }: { feature: CctvFeature }) {
+interface CctvMarkersProps {
+  selectedIndex: number | null;
+  onSelect: (index: number, feature: CctvFeature) => void;
+  onDeselect: () => void;
+}
+
+const CctvMarkerItem = memo(function CctvMarkerItem({
+  feature,
+  isSelected,
+  onSelect,
+}: {
+  feature: CctvFeature;
+  isSelected: boolean;
+  onSelect: () => void;
+}) {
   const [lng, lat] = feature.geometry.coordinates;
-  const { purpose, cameraCount, resolution, direction, coverageRadius, roadAddress } =
-    feature.properties;
 
   return (
-    <Marker position={[lat, lng]} icon={cctvIcon}>
-      <Popup>
-        <b>{purpose}</b>
-        <br />
-        카메라 {cameraCount}대 / {resolution}만화소
-        <br />
-        방면: {direction}
-        <br />
-        커버리지 반경: {coverageRadius}m
-        <br />
-        {roadAddress}
-      </Popup>
-    </Marker>
+    <>
+      <Marker
+        position={[lat, lng]}
+        icon={isSelected ? cctvIconSelected : cctvIcon}
+        eventHandlers={{ click: onSelect }}
+      />
+      {isSelected && (
+        <Circle
+          center={[lat, lng]}
+          radius={feature.properties.coverageRadius}
+          pathOptions={{ color: BRAND_BLUE, weight: 2, fillColor: BRAND_BLUE, fillOpacity: 0.15 }}
+        />
+      )}
+    </>
   );
 });
 
-function CctvMarkers() {
+function CctvMarkers({ selectedIndex, onSelect, onDeselect }: CctvMarkersProps) {
   const [features, setFeatures] = useState<CctvFeature[]>([]);
   const visible = useZoomVisible(MIN_ZOOM);
 
@@ -61,12 +85,27 @@ function CctvMarkers() {
       .then((data) => setFeatures(data.features));
   }, []);
 
+  // 마커는 bubblingMouseEvents 기본값이 false라 클릭이 지도까지 전파되지 않는다.
+  // 즉 이 핸들러는 마커가 아닌 지도 빈 공간을 탭했을 때만 발생한다.
+  useMapEvents({
+    click: onDeselect,
+  });
+
+  useEffect(() => {
+    if (!visible) onDeselect();
+  }, [visible, onDeselect]);
+
   if (!visible) return null;
 
   return (
     <LayerGroup>
       {features.map((feature, i) => (
-        <CctvMarker key={i} feature={feature} />
+        <CctvMarkerItem
+          key={i}
+          feature={feature}
+          isSelected={selectedIndex === i}
+          onSelect={() => onSelect(i, feature)}
+        />
       ))}
     </LayerGroup>
   );

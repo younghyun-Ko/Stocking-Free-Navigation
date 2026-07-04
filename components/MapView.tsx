@@ -2,8 +2,11 @@
 
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
+import { useCallback, useState } from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
-import CctvMarkers from "./CctvMarkers";
+import BottomSheet from "./BottomSheet";
+import CctvDetail from "./CctvDetail";
+import CctvMarkers, { type CctvFeature } from "./CctvMarkers";
 import LightMarkers from "./LightMarkers";
 import PoliceMarkers from "./PoliceMarkers";
 
@@ -19,21 +22,43 @@ const HYEHWA_CENTER: [number, number] = [37.586, 127.001];
 const INITIAL_ZOOM = 16;
 
 export default function MapView() {
+  const [selected, setSelected] = useState<{ index: number; feature: CctvFeature } | null>(
+    null
+  );
+
+  const handleSelect = useCallback((index: number, feature: CctvFeature) => {
+    setSelected({ index, feature });
+  }, []);
+
+  const handleDeselect = useCallback(() => {
+    setSelected(null);
+  }, []);
+
   return (
-    <MapContainer
-      center={HYEHWA_CENTER}
-      zoom={INITIAL_ZOOM}
-      scrollWheelZoom
-      preferCanvas
-      className="h-full w-full"
-    >
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-      <LightMarkers />
-      <CctvMarkers />
-      <PoliceMarkers />
-    </MapContainer>
+    <div className="relative h-full w-full">
+      <MapContainer
+        center={HYEHWA_CENTER}
+        zoom={INITIAL_ZOOM}
+        scrollWheelZoom
+        preferCanvas
+        className="h-full w-full"
+      >
+        <TileLayer
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        <LightMarkers />
+        <CctvMarkers
+          selectedIndex={selected?.index ?? null}
+          onSelect={handleSelect}
+          onDeselect={handleDeselect}
+        />
+        <PoliceMarkers />
+      </MapContainer>
+
+      <BottomSheet open={selected !== null} onClose={handleDeselect}>
+        {selected && <CctvDetail feature={selected.feature} />}
+      </BottomSheet>
+    </div>
   );
 }
