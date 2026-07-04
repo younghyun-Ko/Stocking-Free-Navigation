@@ -14,6 +14,12 @@
   }
 }
 
+html,
+body {
+  height: 100%;
+  overscroll-behavior: none;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
@@ -24,4 +30,18 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* Leaflet 기본 컨트롤(줌, attribution)이 iOS 노치/홈 인디케이터에 가리지 않도록 safe-area 여백 확보 */
+.leaflet-top {
+  margin-top: max(10px, env(safe-area-inset-top));
+}
+.leaflet-bottom {
+  margin-bottom: max(10px, env(safe-area-inset-bottom));
+}
+.leaflet-left {
+  margin-left: max(10px, env(safe-area-inset-left));
+}
+.leaflet-right {
+  margin-right: max(10px, env(safe-area-inset-right));
 }
