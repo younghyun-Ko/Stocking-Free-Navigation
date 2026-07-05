@@ -9,24 +9,27 @@ import type { GraphEdge } from "@/lib/graph";
 import { useZoomVisible } from "./useZoomVisible";
 
 const MIN_ZOOM = 17;
-const COVERAGE_ORANGE = "#FFB020";
+const BRAND_BLUE = "#0083FF";
 const ROUTE_FILTER_BUFFER_M = 50;
-const CCTV_ICON_URL = "/icons/cctv-sign.svg";
+const CCTV_ICON_URL = "/icons/cctv-sign.png";
+// 원본 이미지(240x210) 비율에 맞춰 세로 크기를 계산한다.
 const ICON_W = 28;
-const ICON_H = 26;
+const ICON_H = Math.round((ICON_W * 210) / 240);
 const ICON_W_SELECTED = Math.round(ICON_W * 1.3);
 const ICON_H_SELECTED = Math.round(ICON_H * 1.3);
 
+// Leaflet 기본 CSS(.leaflet-marker-pane img { width: auto })가 HTML width/height 속성보다
+// 우선하므로, 인라인 style로 크기를 강제한다.
 const cctvIcon = L.divIcon({
   className: "cctv-div-icon",
-  html: `<img class="cctv-marker" src="${CCTV_ICON_URL}" width="${ICON_W}" height="${ICON_H}" alt="" />`,
+  html: `<img class="cctv-marker" src="${CCTV_ICON_URL}" style="width:${ICON_W}px;height:${ICON_H}px" alt="" />`,
   iconSize: [ICON_W, ICON_H],
   iconAnchor: [ICON_W / 2, ICON_H],
 });
 
 const cctvIconSelected = L.divIcon({
   className: "cctv-div-icon",
-  html: `<img class="cctv-marker cctv-marker-selected" src="${CCTV_ICON_URL}" width="${ICON_W_SELECTED}" height="${ICON_H_SELECTED}" alt="" />`,
+  html: `<img class="cctv-marker cctv-marker-selected" src="${CCTV_ICON_URL}" style="width:${ICON_W_SELECTED}px;height:${ICON_H_SELECTED}px" alt="" />`,
   iconSize: [ICON_W_SELECTED, ICON_H_SELECTED],
   iconAnchor: [ICON_W_SELECTED / 2, ICON_H_SELECTED],
 });
@@ -62,13 +65,7 @@ const CctvMarkerItem = memo(function CctvMarkerItem({
         <Circle
           center={[lat, lng]}
           radius={feature.properties.coverageRadius}
-          pathOptions={{
-            color: COVERAGE_ORANGE,
-            weight: 2,
-            opacity: 0.4,
-            fillColor: COVERAGE_ORANGE,
-            fillOpacity: 0.12,
-          }}
+          pathOptions={{ color: BRAND_BLUE, weight: 2, fillColor: BRAND_BLUE, fillOpacity: 0.15 }}
         />
       )}
     </>

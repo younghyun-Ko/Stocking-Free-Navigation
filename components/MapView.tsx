@@ -39,9 +39,6 @@ L.Icon.Default.mergeOptions({
 const HYEHWA_CENTER: [number, number] = [37.586, 127.001];
 const INITIAL_ZOOM = 16;
 
-// CARTO Dark Matter 타일 위에 남색 톤을 추가로 입힐지 토글. true/false 비교 후 톤이 과하면 false 유지.
-const TILE_TINT_ENABLED = false;
-
 export default function MapView() {
   const [selected, setSelected] = useState<{ index: number; feature: CctvFeature } | null>(
     null
@@ -150,9 +147,8 @@ export default function MapView() {
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-          url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+          url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
           subdomains="abcd"
-          className={TILE_TINT_ENABLED ? "map-tile-tint" : undefined}
         />
         <MapCenterTracker onChange={setMapCenter} />
         {routeMode === "selected" && selectedRoute ? (
@@ -189,7 +185,7 @@ export default function MapView() {
         <button
           type="button"
           onClick={handleBackToCompare}
-          className="fixed inset-x-0 z-[1500] mx-auto w-fit rounded-full border border-white/15 bg-neutral-900/85 px-4 py-2 text-sm font-medium text-white shadow-lg backdrop-blur-xl active:scale-95"
+          className="fixed inset-x-0 z-[1500] mx-auto w-fit rounded-full bg-neutral-900/85 px-4 py-2 text-sm font-medium text-white shadow-lg backdrop-blur-xl active:scale-95"
           style={{ top: "max(6.5rem, calc(env(safe-area-inset-top) + 5.5rem))" }}
         >
           ← 다른 경로 보기

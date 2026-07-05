@@ -14,10 +14,9 @@ interface RouteLayerProps {
   onSelectRoute: (key: RouteKey) => void;
 }
 
-const GRAY = "#B5BDC9";
-const BRAND_BLUE = "#4DA3FF";
-const BLIND_SPOT_RED = "#FF5A5A";
-const ROUTE_HALO_WHITE = "#FFFFFF";
+const GRAY = "#9CA3AF";
+const BRAND_BLUE = "#0083FF";
+const BLIND_SPOT_RED = "#E11D48";
 const ARROW_INTERVAL_MIN = 60; // m
 const FADE_MS = 300;
 
@@ -183,19 +182,6 @@ export default function RouteLayer({ routes, mode, selectedKey, onSelectRoute }:
 
         return (
           <Fragment key={route.key}>
-            {emphasize && (
-              <Polyline
-                renderer={svgRenderer}
-                positions={route.coords.map(([lng, lat]) => [lat, lng])}
-                pathOptions={{
-                  className: "route-path-svg",
-                  color: ROUTE_HALO_WHITE,
-                  weight: 9,
-                  opacity: fading ? 0 : 0.9,
-                }}
-                interactive={false}
-              />
-            )}
             <Polyline
               renderer={svgRenderer}
               positions={route.coords.map(([lng, lat]) => [lat, lng])}
@@ -203,7 +189,7 @@ export default function RouteLayer({ routes, mode, selectedKey, onSelectRoute }:
                 className: "route-path-svg",
                 color: emphasize ? BRAND_BLUE : GRAY,
                 weight: emphasize ? 7 : 5,
-                opacity: fading ? 0 : emphasize ? 0.95 : 0.8,
+                opacity: fading ? 0 : emphasize ? 0.95 : 0.85,
               }}
               eventHandlers={
                 mode === "compare" ? { click: () => onSelectRoute(route.key) } : undefined
