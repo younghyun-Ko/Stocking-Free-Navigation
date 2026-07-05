@@ -9,21 +9,26 @@ import type { GraphEdge } from "@/lib/graph";
 import { useZoomVisible } from "./useZoomVisible";
 
 const MIN_ZOOM = 17;
-const BRAND_BLUE = "#0083FF";
+const COVERAGE_ORANGE = "#FFB020";
 const ROUTE_FILTER_BUFFER_M = 50;
+const CCTV_ICON_URL = "/icons/cctv-sign.svg";
+const ICON_W = 28;
+const ICON_H = 26;
+const ICON_W_SELECTED = Math.round(ICON_W * 1.3);
+const ICON_H_SELECTED = Math.round(ICON_H * 1.3);
 
 const cctvIcon = L.divIcon({
   className: "cctv-div-icon",
-  html: '<div class="cctv-marker">📹</div>',
-  iconSize: [26, 26],
-  iconAnchor: [13, 13],
+  html: `<img class="cctv-marker" src="${CCTV_ICON_URL}" width="${ICON_W}" height="${ICON_H}" alt="" />`,
+  iconSize: [ICON_W, ICON_H],
+  iconAnchor: [ICON_W / 2, ICON_H],
 });
 
 const cctvIconSelected = L.divIcon({
   className: "cctv-div-icon",
-  html: '<div class="cctv-marker cctv-marker-selected">📹</div>',
-  iconSize: [38, 38],
-  iconAnchor: [19, 19],
+  html: `<img class="cctv-marker cctv-marker-selected" src="${CCTV_ICON_URL}" width="${ICON_W_SELECTED}" height="${ICON_H_SELECTED}" alt="" />`,
+  iconSize: [ICON_W_SELECTED, ICON_H_SELECTED],
+  iconAnchor: [ICON_W_SELECTED / 2, ICON_H_SELECTED],
 });
 
 interface CctvMarkersProps {
@@ -57,7 +62,13 @@ const CctvMarkerItem = memo(function CctvMarkerItem({
         <Circle
           center={[lat, lng]}
           radius={feature.properties.coverageRadius}
-          pathOptions={{ color: BRAND_BLUE, weight: 2, fillColor: BRAND_BLUE, fillOpacity: 0.15 }}
+          pathOptions={{
+            color: COVERAGE_ORANGE,
+            weight: 2,
+            opacity: 0.4,
+            fillColor: COVERAGE_ORANGE,
+            fillOpacity: 0.12,
+          }}
         />
       )}
     </>

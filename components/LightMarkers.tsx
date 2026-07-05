@@ -1,26 +1,19 @@
 "use client";
 
-import { memo, useEffect, useState } from "react";
+import { memo } from "react";
 import { CircleMarker, LayerGroup } from "react-leaflet";
+import type { LightFeature } from "@/lib/light";
 import { useZoomVisible } from "./useZoomVisible";
 
 const MIN_ZOOM = 18;
 const LIGHT_COLOR = "#FFD400";
 
-interface LightFeature {
-  geometry: { coordinates: [number, number] };
-  properties: { type: "security" | "street"; id: string };
+interface LightMarkersProps {
+  features: LightFeature[];
 }
 
-function LightMarkers() {
-  const [features, setFeatures] = useState<LightFeature[]>([]);
+function LightMarkers({ features }: LightMarkersProps) {
   const visible = useZoomVisible(MIN_ZOOM);
-
-  useEffect(() => {
-    fetch("/data/lights.geojson")
-      .then((res) => res.json())
-      .then((data) => setFeatures(data.features));
-  }, []);
 
   if (!visible) return null;
 

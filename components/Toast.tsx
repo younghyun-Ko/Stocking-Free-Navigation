@@ -22,7 +22,7 @@ export default function Toast({ message, onDismiss }: ToastProps) {
       style={{ top: "max(6.5rem, calc(env(safe-area-inset-top) + 5.5rem))" }}
     >
       {message && (
-        <div className="rounded-full bg-neutral-900/90 px-4 py-2 text-sm font-medium text-white shadow-lg backdrop-blur-xl">
+        <div className="rounded-full border border-white/15 bg-neutral-900/90 px-4 py-2 text-sm font-medium text-white shadow-lg backdrop-blur-xl">
           {message}
         </div>
       )}

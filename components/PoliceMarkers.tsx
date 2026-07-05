@@ -7,7 +7,7 @@ import type { PoliceFeature } from "@/lib/police";
 
 const policeIcon = L.divIcon({
   className: "police-div-icon",
-  html: '<div class="police-marker">🛡️</div>',
+  html: '<div class="police-marker"><img src="/icons/police-car.svg" alt="" /></div>',
   iconSize: [30, 30],
   iconAnchor: [15, 15],
   popupAnchor: [0, -15],
